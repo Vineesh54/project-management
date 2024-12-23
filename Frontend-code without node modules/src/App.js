@@ -5,7 +5,7 @@ import axios from "axios";
 const App = () => {
   const [projects, setProjects] = useState([]);
   const [assignments, setAssignments] = useState([]);
-  const candidateId = "676946442d3e1364b9957df4"; 
+  const candidateId = "676946442d3e1364b9957df4"; //Replace the id here according to your database
 
   // Fetch projects
   useEffect(() => {
